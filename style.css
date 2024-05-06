@@ -13,13 +13,17 @@ body {
     background-color: #1f2937;
 }
 
+.footer {
+    text-align: center;
+}
+
 ul {
     display: flex;
     list-style: none;
     gap: 16px;
 }
 
-ul a {
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -102,12 +106,55 @@ button {
 }
 
 .quote {
-    background-color: #e5e7eb;
-}
-
-.quote {
     font-size: 36px;
     font-weight: lighter;
     color: #1f2937;
     font-style: italic;
+    background-color: #e5e7eb;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.person {
+    text-align: right;
+    margin-top: 0px;
+}
+
+.quote p {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.lower-content {
+    margin: 100px;
+    background-color: #3882f6;
+    border-radius: 20px;
+}
+
+.sign-pop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 120px;
+    gap: 30px;
+}
+
+.sign-pop button {
+    border: 1px solid white;
+    align-self: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.important-button-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pop-text p {
+    margin: 0px;
 }
